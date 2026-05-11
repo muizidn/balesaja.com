@@ -1,0 +1,99 @@
+---
+const today = new Date();
+---
+
+<footer class="footer">
+	<div class="site-shell footer-inner">
+		<div class="brand">
+			<img src="/logo.jpeg" alt="Balesaja.id Logo" class="brand-logo" />
+			<span>balesaja.id</span>
+		</div>
+		<div class="footer-contact">
+			<p>Email: <a href="mailto:halo@balesaja.id">halo@balesaja.id</a></p>
+		</div>
+		<div class="footer-links">
+			<a href="/#fitur">Fitur</a>
+			<a href="/#cara-kerja">Cara Kerja</a>
+			<a href="/privacy">Privacy Policy</a>
+			<a href="/terms">Terms of Service</a>
+		</div>
+		<p>&copy; {today.getFullYear()} Balesaja.id. Semua Hak Dilindungi.</p>
+	</div>
+</footer>
+
+<style>
+	.footer-contact {
+		margin: 0;
+		text-align: left;
+	}
+	.footer-contact p {
+		margin: 4px 0;
+		font-size: 0.9rem;
+	}
+	.footer-contact a {
+		color: #2563eb;
+		text-decoration: none;
+		font-weight: 600;
+	}
+
+	.footer {
+		padding: 60px 0 40px;
+		border-top: 1px solid rgba(0, 0, 0, 0.08);
+		color: #64748b;
+		background: #ffffff;
+	}
+
+	.site-shell {
+		width: min(1180px, calc(100% - 40px));
+		margin: 0 auto;
+	}
+
+	.footer-inner {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		font-size: 0.95rem;
+	}
+
+	.brand {
+		display: flex;
+		align-items: center;
+		gap: 10px;
+		color: #0f172a;
+		font-weight: 800;
+		text-decoration: none;
+	}
+
+	.brand-logo {
+		width: 32px;
+		height: 32px;
+		object-fit: contain;
+		border-radius: 6px;
+	}
+
+	.footer-links {
+		display: flex;
+		gap: 32px;
+	}
+
+	.footer-links a {
+		text-decoration: none;
+		color: inherit;
+		transition: color 0.2s ease;
+	}
+
+	.footer-links a:hover {
+		color: #2563eb;
+	}
+
+	@media (max-width: 640px) {
+		.site-shell {
+			width: min(100% - 28px, 1180px);
+		}
+		.footer-inner {
+			flex-direction: column;
+			gap: 24px;
+			text-align: center;
+		}
+	}
+</style>
