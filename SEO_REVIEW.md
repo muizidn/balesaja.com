@@ -14,7 +14,7 @@ Dokumen ini berisi status pekerjaan SEO teknis yang telah diselesaikan.
 
 ### 1. Lead Capture dan CTA (Selesai ✅)
 - **WhatsApp**: Diupdate ke `082243905005` di semua CTA (Hero, Service Page, Blog CTA, Footer).
-- **Email**: Menambahkan `halo@balesaja.id` di footer.
+- **Email**: Menambahkan `halo@balesaja.com` di footer.
 - **Form/Contact**: Footer telah diupdate dengan informasi kontak yang jelas.
 
 ### 2. Upgrade Blog Index (Selesai ✅)

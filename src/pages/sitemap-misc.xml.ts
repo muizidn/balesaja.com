@@ -1,6 +1,6 @@
 
 export async function GET() {
-  const siteUrl = 'https://balesaja.id';
+  const siteUrl = 'https://balesaja.com';
   const lastmod = new Date().toISOString();
 
   const services = [
