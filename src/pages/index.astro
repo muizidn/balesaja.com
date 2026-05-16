@@ -8,8 +8,8 @@ import Footer from '../components/Footer.astro';
 <html lang="id">
 	<head>
 		<BaseHead
-			title="balesaja.com | Jasa Setup Customer Service AI + Whitelabel"
-			description="Otomatisasi layanan pelanggan Anda dengan AI CS tercanggih. Dukungan whitelabel untuk agensi dan bisnis."
+			title="balesaja.com | Aplikasi Penjadwal Media Sosial & Manajemen Konten"
+			description="Kelola, jadwalkan, dan analisis semua akun media sosial Anda dalam satu platform yang mudah digunakan."
 		/>
 		<style>
 			:root {
@@ -19,11 +19,12 @@ import Footer from '../components/Footer.astro';
 				--line: rgba(0, 0, 0, 0.08);
 				--muted: #64748b;
 				--text: #0f172a;
-				--primary: #2563eb;
-				--primary-light: #60a5fa;
-				--primary-dark: #1d4ed8;
+				--primary: #6366f1; /* Indigo */
+				--primary-light: #a5a6f6;
+				--primary-dark: #4f46e5;
 				--ink: #ffffff;
-				--accent: #3b82f6;
+				--accent: #ec4899; /* Pink */
+				--gradient-primary: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
 			}
 
 			* {
@@ -33,8 +34,8 @@ import Footer from '../components/Footer.astro';
 			body {
 				min-height: 100vh;
 				background: 
-					radial-gradient(circle at 16% 6%, rgba(37, 99, 235, 0.05), transparent 31rem),
-					radial-gradient(circle at 86% 16%, rgba(96, 165, 250, 0.05), transparent 28rem),
+					radial-gradient(circle at 16% 6%, rgba(99, 102, 241, 0.05), transparent 31rem),
+					radial-gradient(circle at 86% 16%, rgba(236, 72, 153, 0.05), transparent 28rem),
 					var(--page-bg);
 				color: var(--text);
 				font-family:
@@ -77,16 +78,16 @@ import Footer from '../components/Footer.astro';
 			}
 
 			.btn-primary {
-				background: var(--primary);
+				background: var(--gradient-primary);
 				color: var(--ink);
 				border-color: transparent;
-				box-shadow: 0 10px 25px -5px rgba(37, 99, 235, 0.4);
+				box-shadow: 0 10px 25px -5px rgba(99, 102, 241, 0.4);
 			}
 
 			.btn-primary:hover {
-				background: var(--primary-dark);
 				transform: translateY(-1px);
-				box-shadow: 0 12px 30px -5px rgba(37, 99, 235, 0.5);
+				box-shadow: 0 12px 30px -5px rgba(99, 102, 241, 0.5);
+				opacity: 0.95;
 			}
 
 			.btn-secondary {
@@ -100,12 +101,12 @@ import Footer from '../components/Footer.astro';
 
 			.hero {
 				position: relative;
-				padding: 100px 0 80px;
+				padding: 120px 0 100px;
 			}
 
 			.hero-grid {
 				display: grid;
-				grid-template-columns: 1.1fr 0.9fr;
+				grid-template-columns: 1fr 1fr;
 				align-items: center;
 				gap: 64px;
 			}
@@ -116,9 +117,9 @@ import Footer from '../components/Footer.astro';
 				gap: 8px;
 				min-height: 32px;
 				padding: 0 16px;
-				border: 1px solid rgba(37, 99, 235, 0.15);
+				border: 1px solid rgba(99, 102, 241, 0.15);
 				border-radius: 999px;
-				background: rgba(37, 99, 235, 0.08);
+				background: rgba(99, 102, 241, 0.08);
 				color: var(--primary);
 				font-size: 0.85rem;
 				font-weight: 700;
@@ -128,15 +129,16 @@ import Footer from '../components/Footer.astro';
 			h1 {
 				margin: 0 0 24px;
 				color: var(--text);
-				font-size: clamp(3rem, 6vw, 4.5rem);
+				font-size: clamp(2.5rem, 5vw, 4rem);
 				line-height: 1.1;
 				letter-spacing: -0.03em;
 				font-weight: 900;
 			}
 
 			h1 span {
-				color: var(--primary);
-				display: block;
+				background: var(--gradient-primary);
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
 			}
 
 			.lede {
@@ -220,49 +222,116 @@ import Footer from '../components/Footer.astro';
 				background: #cbd5e1;
 			}
 
-			.chat-interface {
+			/* Mockup Styles */
+			.scheduler-mockup {
 				padding: 24px;
 				background: #ffffff;
-				min-height: 400px;
-				display: flex;
-				flex-direction: column;
+				min-height: 350px;
+				display: grid;
+				grid-template-columns: 60px 1fr;
 				gap: 20px;
 			}
 
-			.chat-bubble {
-				max-width: 80%;
-				padding: 14px 18px;
-				border-radius: 18px;
-				font-size: 0.95rem;
-				line-height: 1.5;
-			}
-
-			.bubble-ai {
-				align-self: flex-start;
+			.mock-sidebar {
 				background: var(--panel);
-				color: var(--text);
-				border-bottom-left-radius: 4px;
-				border: 1px solid var(--line);
-			}
-
-			.bubble-user {
-				align-self: flex-end;
-				background: var(--primary);
-				color: var(--ink);
-				border-bottom-right-radius: 4px;
-			}
-
-			.whitelabel-tag {
-				position: absolute;
-				top: -20px;
-				right: 30px;
-				background: #0f172a;
-				color: #ffffff;
-				padding: 8px 20px;
 				border-radius: 12px;
-				font-size: 0.85rem;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				gap: 16px;
+				padding: 16px 0;
+			}
+
+			.mock-icon {
+				width: 32px;
+				height: 32px;
+				border-radius: 8px;
+				background: #e2e8f0;
+			}
+
+			.mock-icon.active {
+				background: var(--primary);
+			}
+
+			.mock-content {
+				display: flex;
+				flex-direction: column;
+				gap: 16px;
+			}
+
+			.mock-header {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+			}
+
+			.mock-title {
 				font-weight: 700;
-				box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+				font-size: 1.1rem;
+			}
+
+			.mock-card {
+				border: 1px solid var(--line);
+				border-radius: 12px;
+				padding: 16px;
+				display: flex;
+				flex-direction: column;
+				gap: 12px;
+			}
+
+			.mock-post-header {
+				display: flex;
+				align-items: center;
+				gap: 12px;
+			}
+
+			.mock-avatar {
+				width: 36px;
+				height: 36px;
+				border-radius: 50%;
+				background: #cbd5e1;
+			}
+
+			.mock-user-info {
+				display: flex;
+				flex-direction: column;
+			}
+
+			.mock-username {
+				font-weight: 600;
+				font-size: 0.9rem;
+			}
+
+			.mock-time {
+				font-size: 0.75rem;
+				color: var(--muted);
+			}
+
+			.mock-post-content {
+				font-size: 0.9rem;
+				color: var(--text);
+			}
+
+			.mock-post-image {
+				height: 120px;
+				background: linear-gradient(135deg, #e0e7ff 0%, #fbcfe8 100%);
+				border-radius: 8px;
+			}
+
+			.mock-post-footer {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				font-size: 0.8rem;
+				color: var(--muted);
+			}
+
+			.mock-status {
+				padding: 4px 8px;
+				border-radius: 999px;
+				background: rgba(16, 185, 129, 0.1);
+				color: #10b981;
+				font-weight: 600;
 			}
 
 			.section {
@@ -310,7 +379,7 @@ import Footer from '../components/Footer.astro';
 
 			.feature-card:hover {
 				border-color: var(--primary-light);
-				box-shadow: 0 20px 40px -10px rgba(37, 99, 235, 0.1);
+				box-shadow: 0 20px 40px -10px rgba(99, 102, 241, 0.1);
 				transform: translateY(-4px);
 			}
 
@@ -318,7 +387,7 @@ import Footer from '../components/Footer.astro';
 				width: 54px;
 				height: 54px;
 				border-radius: 12px;
-				background: rgba(37, 99, 235, 0.1);
+				background: rgba(99, 102, 241, 0.1);
 				color: var(--primary);
 				display: grid;
 				place-items: center;
@@ -352,7 +421,7 @@ import Footer from '../components/Footer.astro';
 			.step-num {
 				font-size: 4rem;
 				font-weight: 900;
-				color: rgba(37, 99, 235, 0.08);
+				color: rgba(99, 102, 241, 0.08);
 				line-height: 1;
 				margin-bottom: -20px;
 			}
@@ -372,7 +441,7 @@ import Footer from '../components/Footer.astro';
 
 			.cta-section {
 				padding: 100px 0;
-				background: var(--text);
+				background: #0f172a;
 				color: #ffffff;
 				border-radius: 40px;
 				margin: 0 20px 40px;
@@ -388,7 +457,7 @@ import Footer from '../components/Footer.astro';
 				left: 0;
 				right: 0;
 				bottom: 0;
-				background: radial-gradient(circle at 50% 50%, rgba(37, 99, 235, 0.2), transparent);
+				background: radial-gradient(circle at 50% 50%, rgba(99, 102, 241, 0.2), transparent);
 				pointer-events: none;
 			}
 
@@ -471,12 +540,6 @@ import Footer from '../components/Footer.astro';
 				font-size: 0.85rem;
 				color: var(--muted);
 			}
-
-			@media (max-width: 980px) {
-				.testimonials-grid {
-					grid-template-columns: 1fr;
-				}
-			}
 		</style>
 	</head>
 	<body>
@@ -486,85 +549,60 @@ import Footer from '../components/Footer.astro';
 			<section class="hero">
 				<div class="site-shell hero-grid">
 					<div>
-						<span class="badge">AI Customer Service Specialist</span>
-						<h1>Jasa Setup Customer Service <span>AI + Whitelabel</span></h1>
+						<span class="badge">Aplikasi Penjadwal Media Sosial</span>
+						<h1>Kelola Media Sosial Anda <span>Tanpa Ribet</span></h1>
 						<p class="lede">
-							Tingkatkan efisiensi bisnis Anda dengan asisten AI yang cerdas. Bekerja 24/7 untuk menjawab pertanyaan pelanggan Anda dengan akurat.
+							Satu platform untuk merencanakan, menjadwalkan, dan menganalisis semua konten media sosial Anda. Tingkatkan kehadiran digital Anda secara otomatis.
 						</p>
 						<div class="hero-actions">
-							<a class="btn btn-primary" href="https://wa.me/6282243905005?text=Halo%20Balesaja,%20saya%20tertarik%20dengan%20layanan%20WhatsApp%20AI">Mulai Setup Sekarang</a>
+							<a class="btn btn-primary" href="#">Mulai Gratis Sekarang</a>
 							<a class="btn btn-secondary" href="#fitur">Lihat Fitur</a>
 						</div>
 						<div class="trust-row">
-							<span class="trust-pill">Respon Cepat 24/7</span>
-							<span class="trust-pill">Integrasi WhatsApp</span>
-							<span class="trust-pill">Full Whitelabel</span>
+							<span class="trust-pill">Mudah Digunakan</span>
+							<span class="trust-pill">Mendukung Multi-Platform</span>
+							<span class="trust-pill">Analisis Real-Time</span>
 						</div>
 					</div>
 
 					<div class="product-preview">
-						<div class="whitelabel-tag">Your Brand Here</div>
 						<div class="product-window">
 							<div class="window-bar">
 								<div class="dots"><span></span><span></span><span></span></div>
-								<span>WhatsApp Business AI</span>
+								<span>Dashboard Penjadwal</span>
 							</div>
-							<div class="chat-interface">
-								<div class="chat-bubble bubble-user">
-									Halo, apakah produk ini ready stock?
+							<div class="scheduler-mockup">
+								<div class="mock-sidebar">
+									<div class="mock-icon active"></div>
+									<div class="mock-icon"></div>
+									<div class="mock-icon"></div>
+									<div class="mock-icon"></div>
 								</div>
-								<div class="chat-bubble bubble-ai">
-									Halo! Iya, produk kami ready stock dan siap kirim hari ini. Ada lagi yang bisa saya bantu? 😊
-								</div>
-								<div class="chat-bubble bubble-user">
-									Bisa kirim ke Jakarta pakai Instant?
-								</div>
-								<div class="chat-bubble bubble-ai">
-									Tentu bisa! Untuk pengiriman ke Jakarta tersedia opsi kurir Instant (Gojek/Grab). Estimasi sampai dalam 2-3 jam setelah order diproses.
+								<div class="mock-content">
+									<div class="mock-header">
+										<div class="mock-title">Postingan Terjadwal</div>
+										<button class="btn btn-primary" style="min-height: 32px; padding: 0 12px; font-size: 0.8rem;">+ Baru</button>
+									</div>
+									<div class="mock-card">
+										<div class="mock-post-header">
+											<div class="mock-avatar"></div>
+											<div class="mock-user-info">
+												<div class="mock-username">Brand Anda</div>
+												<div class="mock-time">Akan tayang: Besok, 10:00 WIB</div>
+											</div>
+										</div>
+										<div class="mock-post-content">
+											Siap untuk meluncurkan produk baru kami? Jangan lewatkan penawaran spesial besok! 🚀 #LaunchDay
+										</div>
+										<div class="mock-post-image"></div>
+										<div class="mock-post-footer">
+											<span>Instagram, Twitter, Facebook</span>
+											<span class="mock-status">Siap</span>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-				</div>
-			</section>
-
-			<section id="layanan" class="section">
-				<div class="site-shell">
-					<div class="section-header">
-						<span class="kicker">Layanan Kami</span>
-						<h2>Solusi WhatsApp & AI Terpercaya</h2>
-					</div>
-					<div class="feature-grid">
-						<a href="/layanan/setup-whatsapp-business-ai/" class="feature-card" style="text-decoration: none;">
-							<div class="icon-box">🤖</div>
-							<h3>Setup AI CS</h3>
-							<p>Otomatisasi layanan pelanggan 24/7 dengan asisten AI cerdas yang memahami konteks bisnis Anda.</p>
-						</a>
-						<a href="/layanan/bot-wa/" class="feature-card" style="text-decoration: none;">
-							<div class="icon-box">⚡</div>
-							<h3>Custom Bot WA</h3>
-							<p>Pembuatan bot WhatsApp untuk cek resi, booking, pendaftaran, dan integrasi sistem kustom.</p>
-						</a>
-						<a href="/layanan/broadcast-whatsapp/" class="feature-card" style="text-decoration: none;">
-							<div class="icon-box">📣</div>
-							<h3>WA Blast Resmi</h3>
-							<p>Kirim pesan massal (broadcast) secara resmi dan aman tanpa risiko blokir untuk promosi Anda.</p>
-						</a>
-						<a href="/layanan/whatsapp-business-api/" class="feature-card" style="text-decoration: none;">
-							<div class="icon-box">🏢</div>
-							<h3>WhatsApp API</h3>
-							<p>Akses fitur Enterprise: multi-admin, centang hijau, dan integrasi CRM untuk skala besar.</p>
-						</a>
-						<a href="/layanan/white-label-ai-customer-service/" class="feature-card" style="text-decoration: none;">
-							<div class="icon-box">🤝</div>
-							<h3>White-Label</h3>
-							<p>Peluang agensi untuk menjual kembali layanan AI CS kami dengan brand dan harga Anda sendiri.</p>
-						</a>
-						<a href="/blog" class="feature-card" style="text-decoration: none; border-style: dashed; background: var(--panel);">
-							<div class="icon-box">📚</div>
-							<h3>Wawasan & Blog</h3>
-							<p>Pelajari strategi terbaru seputar WhatsApp marketing dan AI untuk pertumbuhan bisnis Anda.</p>
-						</a>
 					</div>
 				</div>
 			</section>
@@ -573,23 +611,38 @@ import Footer from '../components/Footer.astro';
 				<div class="site-shell">
 					<div class="section-header">
 						<span class="kicker">Fitur Unggulan</span>
-						<h2>Solusi AI Lengkap untuk Bisnis Modern</h2>
+						<h2>Semua yang Anda Butuhkan untuk Sukses di Media Sosial</h2>
 					</div>
 					<div class="feature-grid">
 						<div class="feature-card">
-							<div class="icon-box">💬</div>
-							<h3>Smart Response</h3>
-							<p>AI kami belajar dari data bisnis Anda untuk memberikan jawaban yang natural dan akurat layaknya manusia.</p>
+							<div class="icon-box">📅</div>
+							<h3>Kalender Konten Visual</h3>
+							<p>Rencanakan dan atur konten Anda dengan drag-and-drop kalender yang intuitif.</p>
 						</div>
 						<div class="feature-card">
-							<div class="icon-box">🏷️</div>
-							<h3>Full Whitelabel</h3>
-							<p>Gunakan brand Anda sendiri. Hapus semua jejak balesaja.com untuk menjaga eksklusivitas layanan Anda.</p>
+							<div class="icon-box">🤖</div>
+							<h3>Asisten AI Konten</h3>
+							<p>Generate caption menarik dan hashtag relevan dalam hitungan detik dengan bantuan AI.</p>
 						</div>
 						<div class="feature-card">
-							<div class="icon-box">📱</div>
+							<div class="icon-box">📊</div>
+							<h3>Analisis Mendalam</h3>
+							<p>Pelajari performa postingan Anda dan ketahui waktu terbaik untuk mempublikasikannya.</p>
+						</div>
+						<div class="feature-card">
+							<div class="icon-box">🔗</div>
 							<h3>Multi-Platform</h3>
-							<p>Satu AI untuk semua. Integrasikan dengan WhatsApp, Telegram, Website, dan Instagram Direct Message.</p>
+							<p>Hubungkan ke Instagram, TikTok, Facebook, Twitter, dan LinkedIn dalam satu tempat.</p>
+						</div>
+						<div class="feature-card">
+							<div class="icon-box">👥</div>
+							<h3>Kolaborasi Tim</h3>
+							<p>Bekerja bersama tim Anda untuk menyetujui dan menjadwalkan konten tanpa hambatan.</p>
+						</div>
+						<div class="feature-card">
+							<div class="icon-box">📥</div>
+							<h3>Inbox Terpadu</h3>
+							<p>Balas pesan dan komentar dari semua platform dalam satu inbox yang rapi.</p>
 						</div>
 					</div>
 				</div>
@@ -599,101 +652,68 @@ import Footer from '../components/Footer.astro';
 				<div class="site-shell">
 					<div class="section-header">
 						<span class="kicker">Proses Kami</span>
-						<h2>4 Langkah Menuju Otomatisasi</h2>
+						<h2>Sederhana & Efisien</h2>
 					</div>
 					<div class="workflow">
 						<div class="step">
 							<div class="step-num">01</div>
-							<h3>Konsultasi</h3>
-							<p>Diskusi mendalam mengenai kebutuhan CS dan alur bisnis Anda.</p>
+							<h3>Hubungkan Akun</h3>
+							<p>Integrasikan semua akun media sosial Anda dengan aman dalam beberapa klik.</p>
 						</div>
 						<div class="step">
 							<div class="step-num">02</div>
-							<h3>Knowledge Base</h3>
-							<p>Kami melatih AI dengan data produk, FAQ, dan gaya bahasa brand Anda.</p>
+							<h3>Buat & Rencanakan</h3>
+							<p>Tulis konten Anda, gunakan AI untuk caption, dan atur di kalender.</p>
 						</div>
 						<div class="step">
 							<div class="step-num">03</div>
-							<h3>Integrasi</h3>
-							<p>Pemasangan sistem AI ke platform chat yang Anda gunakan.</p>
+							<h3>Jadwalkan</h3>
+							<p>Tentukan waktu tayang atau biarkan sistem kami memilih waktu terbaik.</p>
 						</div>
 						<div class="step">
 							<div class="step-num">04</div>
-							<h3>Go Live!</h3>
-							<p>Sistem siap melayani pelanggan Anda secara otomatis 24/7.</p>
+							<h3>Pantau Hasil</h3>
+							<p>Lihat bagaimana audiens Anda merespons dan terus kembangkan jangkauan Anda.</p>
 						</div>
 					</div>
 				</div>
 			</section>
+
+
 
 			<section id="testimonial" class="section" style="background: var(--panel);">
 				<div class="site-shell">
 					<div class="section-header">
 						<span class="kicker">Testimoni</span>
-						<h2>Apa Kata Mereka Tentang balesaja.com</h2>
+						<h2>Apa Kata Mereka</h2>
 					</div>
 					<div class="testimonials-grid">
 						<div class="testimonial-card">
-							<p class="quote">"Layanan luar biasa! AI-nya sangat cerdas dan membantu kami menangani 80% chat masuk secara otomatis tanpa kehilangan kualitas."</p>
+							<p class="quote">"Aplikasi ini menghemat waktu saya hingga 10 jam per minggu. Menjadwalkan konten sebulan penuh kini hanya butuh beberapa jam!"</p>
 							<div class="author">
 								<div class="author-info">
 									<strong>Andi Prasetya</strong>
-									<span>Pemilik E-commerce</span>
+									<span>Social Media Manager</span>
 								</div>
 							</div>
 						</div>
 						<div class="testimonial-card">
-							<p class="quote">"Whitelabel dashboard-nya sangat mudah digunakan. Klien agensi saya sangat puas dengan solusi AI yang kami tawarkan melalui Balesaja."</p>
+							<p class="quote">"Fitur AI Caption-nya sangat membantu saat saya kehabisan ide. Hasilnya natural dan sangat engaging!"</p>
 							<div class="author">
 								<div class="author-info">
 									<strong>Budi Santoso</strong>
-									<span>Founder Marketing Agency</span>
+									<span>Content Creator</span>
 								</div>
 							</div>
 						</div>
 						<div class="testimonial-card">
-							<p class="quote">"Setup-nya sangat cepat dan tim support-nya sangat membantu dalam melatih AI kami. Bisnis jadi jauh lebih efisien sekarang!"</p>
+							<p class="quote">"Analisisnya sangat mendalam tapi mudah dipahami. Kami bisa melihat dengan jelas konten mana yang menghasilkan penjualan."</p>
 							<div class="author">
 								<div class="author-info">
 									<strong>Citra Lestari</strong>
-									<span>Startup Founder</span>
+									<span>Digital Marketer</span>
 								</div>
 							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<section id="whitelabel" class="section">
-				<div class="site-shell">
-					<div class="section-header">
-						<span class="kicker">Peluang Agensi</span>
-						<h2>Bangun Bisnis SaaS Anda Sendiri</h2>
-						<p class="lede" style="margin: 0 auto;">Dengan fitur Whitelabel, Anda bisa menjual kembali layanan setup AI ini kepada klien Anda dengan harga dan brand Anda sendiri.</p>
-					</div>
-					<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center;">
-						<div class="product-preview" style="background: var(--panel); display: flex; align-items: center; justify-content: center; min-height: 180px;">
-							<img src="/logo.jpeg" alt="Your Logo Here" style="width: 120px; height: 120px; object-fit: contain; border-radius: 12px;" />
-						</div>
-						<div>
-							<ul style="list-style: none; padding: 0; display: grid; gap: 20px;">
-								<li style="display: flex; gap: 15px; font-size: 1.1rem;">
-									<span style="color: var(--primary); font-weight: 900;">✓</span>
-									Custom Domain & Dashboard
-								</li>
-								<li style="display: flex; gap: 15px; font-size: 1.1rem;">
-									<span style="color: var(--primary); font-weight: 900;">✓</span>
-									Laporan Performa untuk Klien
-								</li>
-								<li style="display: flex; gap: 15px; font-size: 1.1rem;">
-									<span style="color: var(--primary); font-weight: 900;">✓</span>
-									Kontrol Penuh Atas Harga Jual
-								</li>
-								<li style="display: flex; gap: 15px; font-size: 1.1rem;">
-									<span style="color: var(--primary); font-weight: 900;">✓</span>
-									Support Teknis dari Tim Kami
-								</li>
-							</ul>
 						</div>
 					</div>
 				</div>
@@ -701,10 +721,10 @@ import Footer from '../components/Footer.astro';
 
 			<div class="cta-section">
 				<div class="site-shell">
-					<h2>Siap Otomatisasi CS Anda?</h2>
-					<p style="font-size: 1.2rem; margin-bottom: 40px; opacity: 0.9;">Bergabunglah dengan ratusan bisnis yang telah bertransformasi dengan AI.</p>
-					<a class="btn btn-primary" href="https://wa.me/6282243905005?text=Halo%20Balesaja,%20saya%20tertarik%20dengan%20layanan%20WhatsApp%20AI" style="background: #ffffff; color: var(--text); padding: 18px 40px; font-size: 1.1rem;">
-						Hubungi Kami via WhatsApp
+					<h2>Siap Menguasai Media Sosial?</h2>
+					<p style="font-size: 1.2rem; margin-bottom: 40px; opacity: 0.9;">Bergabunglah dengan ribuan kreator dan bisnis yang telah menghemat waktu dengan kami.</p>
+					<a class="btn btn-primary" href="#" style="background: #ffffff; color: #0f172a; padding: 18px 40px; font-size: 1.1rem;">
+						Mulai Sekarang - Gratis!
 					</a>
 				</div>
 			</div>
