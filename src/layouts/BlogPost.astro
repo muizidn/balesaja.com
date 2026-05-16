@@ -8,15 +8,22 @@ import Header from '../components/Header.astro';
 import BlogCTA from '../components/BlogCTA.astro';
 import RelatedPosts from '../components/RelatedPosts.astro';
 
-type Props = CollectionEntry<'blog'> & {
-	headings: MarkdownHeading[];
+type Props = Partial<CollectionEntry<'blog'>> & {
+	headings?: MarkdownHeading[];
+	title?: string;
+	description?: string;
+	pubDate?: Date;
 };
 
-const { id, data, headings } = Astro.props;
+const { id, data, headings = [] } = Astro.props;
+
+// Fallback to Astro.props if data is undefined (e.g. for static pages using this layout)
+const postData = data || Astro.props;
+
 const { 
 	title, 
 	description, 
-	pubDate, 
+	pubDate = new Date(), 
 	updatedDate, 
 	heroImage,
 	ctaTitle,
@@ -28,7 +35,7 @@ const {
 	faq,
 	category,
 	tags
-} = data;
+} = postData;
 
 // Generate FAQPage Schema
 const faqSchema = faq ? {
