@@ -3,7 +3,7 @@ title: 'Workflow Konten Instagram untuk Tim Marketing yang Lebih Rapi'
 description: 'Contoh workflow konten Instagram untuk tim marketing, dari riset ide sampai jadwal tayang dan evaluasi performa.'
 pubDate: 'May 09 2026'
 category: 'Social Media Scheduling'
-tags: ['MOFU', 'workflow instagram', 'tim marketing', 'kalender konten']
+tags: ['workflow instagram', 'tim marketing', 'kalender konten']
 ctaTitle: 'Bangun workflow konten yang tidak mudah macet'
 ctaDescription: 'Balesaja membantu tim marketing menghubungkan ide, produksi, approval, scheduling, dan evaluasi dalam satu alur kerja.'
 ctaLink: '/'

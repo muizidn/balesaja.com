@@ -1,9 +1,9 @@
 ---
 title: 'Cara Kelola Banyak Akun Instagram Tanpa Salah Posting'
-description: 'Panduan MOFU untuk bisnis, agency, dan tim marketing yang mengelola banyak akun Instagram agar jadwal konten tetap rapi.'
+description: 'Panduan untuk bisnis, agency, dan tim marketing yang mengelola banyak akun Instagram agar jadwal konten tetap rapi.'
 pubDate: 'May 08 2026'
 category: 'Social Media Scheduling'
-tags: ['MOFU', 'multi akun instagram', 'agency marketing', 'social media scheduling']
+tags: ['multi akun instagram', 'agency marketing', 'social media scheduling']
 ctaTitle: 'Kelola banyak akun dari alur yang rapi'
 ctaDescription: 'Balesaja membantu tim mengatur kalender, approval, dan jadwal posting untuk beberapa akun media sosial dengan lebih terkontrol.'
 ctaLink: '/'

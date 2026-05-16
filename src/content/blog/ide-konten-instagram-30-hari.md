@@ -3,7 +3,7 @@ title: 'Ide Konten Instagram 30 Hari untuk Bisnis yang Ingin Konsisten'
 description: 'Kumpulan ide konten Instagram 30 hari untuk bisnis Indonesia agar kalender konten lebih mudah diisi dan siap dijadwalkan.'
 pubDate: 'May 01 2026'
 category: 'Social Media Scheduling'
-tags: ['TOFU', 'ide konten instagram', 'kalender konten', 'instagram bisnis']
+tags: ['ide konten instagram', 'kalender konten', 'instagram bisnis']
 ctaTitle: 'Ubah ide konten jadi jadwal tayang'
 ctaDescription: 'Balesaja membantu bisnis menyusun ide, approval, dan jadwal posting agar kalender konten tidak berhenti sebagai daftar rencana.'
 ctaLink: '/'
@@ -18,7 +18,7 @@ Artikel ini bisa dipakai sebagai bahan awal untuk mengisi [kalender konten media
 
 Hari 1: Jelaskan masalah utama pelanggan dan kenapa masalah itu sering terjadi.
 
-Hari 2: Buat carousel "3 kesalahan yang sering dilakukan" terkait produk atau layanan Anda.
+Hari 2: Buat carousel "3 kesalahan yang sering dilakukan" terkait produk atau layanan kamu.
 
 Hari 3: Jawab satu pertanyaan yang paling sering masuk lewat DM atau WhatsApp.
 
@@ -40,7 +40,7 @@ Hari 10: Buat perbandingan sebelum dan sesudah memakai produk.
 
 Hari 11: Jelaskan proses pemesanan, booking, atau konsultasi.
 
-Hari 12: Bahas siapa yang paling cocok memakai layanan Anda.
+Hari 12: Bahas siapa yang paling cocok memakai layanan kamu.
 
 Hari 13: Buat konten "produk ini bukan untuk siapa" agar ekspektasi lebih jelas.
 
@@ -60,7 +60,7 @@ Hari 19: Buat konten pertanyaan pelanggan sebelum membeli dan jawaban brand.
 
 Hari 20: Tampilkan review dari marketplace, Google, atau chat dengan izin.
 
-Hari 21: Ceritakan alasan pelanggan memilih bisnis Anda dibanding alternatif lain.
+Hari 21: Ceritakan alasan pelanggan memilih bisnis kamu dibanding alternatif lain.
 
 ## Minggu keempat: brand dan komunitas
 

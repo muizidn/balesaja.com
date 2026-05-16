@@ -1,10 +1,10 @@
 ---
 title: 'Biaya Software Penjadwal Konten vs Admin Manual'
-description: 'Analisis BOFU tentang biaya memakai software penjadwal konten dibanding tetap mengandalkan admin manual untuk posting media sosial.'
+description: 'Analisis biaya memakai software penjadwal konten dibanding tetap mengandalkan admin manual untuk posting media sosial.'
 pubDate: 'May 15 2026'
 category: 'Social Media Scheduling'
-tags: ['BOFU', 'biaya scheduler', 'admin media sosial', 'social media scheduling']
-ctaTitle: 'Hitung nilai waktu tim Anda'
+tags: ['biaya scheduler', 'admin media sosial', 'social media scheduling']
+ctaTitle: 'Hitung nilai waktu tim kamu'
 ctaDescription: 'Balesaja membantu mengurangi pekerjaan posting manual dan membuat proses konten lebih mudah dipantau dari satu alur kerja.'
 ctaLink: '/'
 ctaButton: 'Hitung Efisiensi'

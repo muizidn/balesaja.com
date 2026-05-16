@@ -1,9 +1,9 @@
 ---
 title: 'Rencana Implementasi Social Media Scheduling dalam 7 Hari'
-description: 'Panduan BOFU untuk menerapkan social media scheduling dalam 7 hari, mulai dari audit konten sampai jadwal publikasi pertama.'
+description: 'Panduan menerapkan social media scheduling dalam 7 hari, mulai dari audit konten sampai jadwal publikasi pertama.'
 pubDate: 'May 16 2026'
 category: 'Social Media Scheduling'
-tags: ['BOFU', 'implementasi scheduling', 'social media scheduling', 'Balesaja']
+tags: ['implementasi scheduling', 'social media scheduling', 'Balesaja']
 ctaTitle: 'Siap merapikan scheduling minggu ini?'
 ctaDescription: 'Balesaja membantu bisnis memulai kalender konten, approval, dan jadwal posting dengan langkah yang realistis untuk tim.'
 ctaLink: '/'

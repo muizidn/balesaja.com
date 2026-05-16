@@ -1,10 +1,10 @@
 ---
 title: 'Aplikasi Penjadwal Instagram untuk Bisnis Indonesia: Apa yang Perlu Dicari?'
-description: 'Panduan MOFU untuk memilih aplikasi penjadwal Instagram yang cocok untuk bisnis Indonesia, tim marketing, agency, dan UMKM.'
+description: 'Panduan memilih aplikasi penjadwal Instagram yang cocok untuk bisnis Indonesia, tim marketing, agency, dan UMKM.'
 pubDate: 'May 04 2026'
 category: 'Social Media Scheduling'
-tags: ['MOFU', 'aplikasi penjadwal instagram', 'social media scheduler', 'tools instagram']
-ctaTitle: 'Cari scheduler yang cocok untuk tim Anda?'
+tags: ['aplikasi penjadwal instagram', 'social media scheduler', 'tools instagram']
+ctaTitle: 'Cari scheduler yang cocok untuk tim kamu?'
 ctaDescription: 'Balesaja membantu bisnis mengelola jadwal konten, approval, dan publikasi media sosial dalam alur yang mudah dipahami.'
 ctaLink: '/'
 ctaButton: 'Bandingkan Kebutuhan'
@@ -64,4 +64,4 @@ Jika uji kecil terasa lancar, barulah perluas ke lebih banyak konten, akun, atau
 
 Aplikasi penjadwal Instagram yang cocok untuk bisnis Indonesia harus membantu tiga hal: konsistensi posting, kolaborasi tim, dan kontrol campaign. Pilih berdasarkan workflow nyata, bukan sekadar daftar fitur.
 
-Jika Anda sedang membandingkan opsi, lanjutkan dengan [checklist memilih aplikasi penjadwal media sosial](/blog/checklist-memilih-aplikasi-penjadwal-media-sosial/) agar keputusan lebih objektif.
+Jika kamu sedang membandingkan opsi, lanjutkan dengan [checklist memilih aplikasi penjadwal media sosial](/blog/checklist-memilih-aplikasi-penjadwal-media-sosial/) agar keputusan lebih objektif.

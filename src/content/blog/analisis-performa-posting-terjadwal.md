@@ -1,9 +1,9 @@
 ---
 title: 'Cara Analisis Performa Posting Terjadwal di Media Sosial'
-description: 'Panduan MOFU untuk membaca hasil posting terjadwal, memilih metrik yang tepat, dan memperbaiki kalender konten berikutnya.'
+description: 'Panduan membaca hasil posting terjadwal, memilih metrik yang tepat, dan memperbaiki kalender konten berikutnya.'
 pubDate: 'May 10 2026'
 category: 'Social Media Scheduling'
-tags: ['MOFU', 'analisis media sosial', 'posting terjadwal', 'social media analytics']
+tags: ['analisis media sosial', 'posting terjadwal', 'social media analytics']
 ctaTitle: 'Jadikan jadwal konten lebih berbasis data'
 ctaDescription: 'Balesaja membantu bisnis melihat pola konten dan menyusun jadwal yang lebih terukur dari waktu ke waktu.'
 ctaLink: '/'

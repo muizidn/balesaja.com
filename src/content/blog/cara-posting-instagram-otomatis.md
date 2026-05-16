@@ -1,9 +1,9 @@
 ---
 title: 'Cara Posting Instagram Otomatis untuk Bisnis Indonesia'
-description: 'Panduan TOFU untuk memahami cara posting Instagram otomatis, kapan perlu dipakai, dan bagaimana memulai penjadwalan konten tanpa membuat proses marketing jadi rumit.'
+description: 'Panduan memahami cara posting Instagram otomatis, kapan perlu dipakai, dan bagaimana memulai penjadwalan konten tanpa membuat proses marketing jadi rumit.'
 pubDate: 'Apr 27 2026'
 category: 'Social Media Scheduling'
-tags: ['TOFU', 'cara posting instagram otomatis', 'jadwal posting instagram', 'social media scheduling']
+tags: ['cara posting instagram otomatis', 'jadwal posting instagram', 'social media scheduling']
 ctaTitle: 'Ingin posting Instagram lebih rapi?'
 ctaDescription: 'Balesaja membantu bisnis menyusun jadwal konten, alur approval, dan publikasi media sosial agar tim tidak lagi bergantung pada posting manual.'
 ctaLink: '/'

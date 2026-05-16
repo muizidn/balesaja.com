@@ -3,7 +3,7 @@ title: 'Fitur Wajib Social Media Scheduler untuk Tim Marketing'
 description: 'Daftar fitur penting dalam social media scheduler untuk tim marketing, mulai dari kalender konten, approval, multi-akun, sampai laporan performa.'
 pubDate: 'May 05 2026'
 category: 'Social Media Scheduling'
-tags: ['MOFU', 'fitur scheduler', 'social media scheduler', 'tim marketing']
+tags: ['fitur scheduler', 'social media scheduler', 'tim marketing']
 ctaTitle: 'Butuh scheduler yang siap dipakai tim?'
 ctaDescription: 'Balesaja membantu merapikan proses konten dari draft, approval, jadwal tayang, sampai evaluasi performa.'
 ctaLink: '/'
@@ -74,4 +74,4 @@ Ini juga memudahkan training internal karena setiap orang belajar fitur yang ben
 
 Fitur wajib social media scheduler mencakup kalender, multi-platform, approval, manajemen aset, preview, role akses, dan analytics. Namun, fitur terbaik adalah yang sesuai dengan cara kerja tim.
 
-Sebelum memilih alat, petakan workflow konten Anda. Dari sana, fitur yang benar-benar penting akan terlihat lebih jelas.
+Sebelum memilih alat, petakan workflow konten kamu. Dari sana, fitur yang benar-benar penting akan terlihat lebih jelas.

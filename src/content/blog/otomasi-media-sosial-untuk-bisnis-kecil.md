@@ -3,7 +3,7 @@ title: 'Otomasi Media Sosial untuk Bisnis Kecil: Mulai dari Mana?'
 description: 'Panduan otomasi media sosial untuk bisnis kecil di Indonesia agar posting lebih konsisten tanpa menambah beban kerja admin.'
 pubDate: 'May 02 2026'
 category: 'Social Media Scheduling'
-tags: ['TOFU', 'otomasi media sosial', 'bisnis kecil', 'social media scheduling']
+tags: ['otomasi media sosial', 'bisnis kecil', 'social media scheduling']
 ctaTitle: 'Mulai otomasi media sosial dengan sederhana'
 ctaDescription: 'Balesaja membantu bisnis kecil menata jadwal posting, kalender konten, dan proses publikasi tanpa workflow yang berat.'
 ctaLink: '/'

@@ -3,7 +3,7 @@ title: 'Apa Itu Social Media Scheduling dan Kenapa Penting?'
 description: 'Penjelasan dasar tentang social media scheduling untuk bisnis, termasuk manfaat, alur kerja, dan perbedaannya dengan posting manual.'
 pubDate: 'Apr 28 2026'
 category: 'Social Media Scheduling'
-tags: ['TOFU', 'social media scheduling', 'penjadwalan konten', 'otomasi media sosial']
+tags: ['social media scheduling', 'penjadwalan konten', 'otomasi media sosial']
 ctaTitle: 'Mau jadwal konten lebih tertata?'
 ctaDescription: 'Balesaja membantu bisnis mengatur kalender konten dan penjadwalan media sosial dalam alur kerja yang lebih mudah dipantau.'
 ctaLink: '/'
@@ -65,4 +65,4 @@ Dengan pola ini, admin tidak lagi mencari ide setiap pagi. Owner bisa melihat re
 
 Social media scheduling membantu bisnis bekerja lebih konsisten, bukan lebih robotik. Dengan jadwal yang jelas, tim bisa fokus pada ide, kualitas pesan, dan interaksi pelanggan.
 
-Jika bisnis Anda mulai kewalahan mengelola banyak konten, scheduling adalah fondasi yang layak dibangun sebelum menambah lebih banyak channel.
+Jika bisnis kamu mulai kewalahan mengelola banyak konten, scheduling adalah fondasi yang layak dibangun sebelum menambah lebih banyak channel.

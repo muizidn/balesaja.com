@@ -1,9 +1,9 @@
 ---
 title: 'Social Media Management vs Social Media Scheduler: Apa Bedanya?'
-description: 'Komparasi MOFU antara social media management dan social media scheduler agar bisnis bisa memilih solusi yang sesuai kebutuhan.'
+description: 'Komparasi social media management dan social media scheduler agar bisnis bisa memilih solusi yang sesuai kebutuhan.'
 pubDate: 'May 07 2026'
 category: 'Social Media Scheduling'
-tags: ['MOFU', 'komparasi', 'social media management', 'social media scheduler']
+tags: ['komparasi', 'social media management', 'social media scheduler']
 ctaTitle: 'Pilih alat sesuai proses tim'
 ctaDescription: 'Balesaja membantu bisnis memahami kebutuhan scheduling, approval, dan pengelolaan konten sebelum memilih workflow yang tepat.'
 ctaLink: '/'

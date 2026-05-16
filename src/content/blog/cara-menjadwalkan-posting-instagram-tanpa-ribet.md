@@ -3,7 +3,7 @@ title: 'Cara Menjadwalkan Posting Instagram Tanpa Ribet'
 description: 'Langkah praktis menjadwalkan posting Instagram untuk bisnis, mulai dari ide konten, caption, approval, sampai evaluasi.'
 pubDate: 'May 03 2026'
 category: 'Social Media Scheduling'
-tags: ['TOFU', 'menjadwalkan posting instagram', 'posting otomatis', 'instagram bisnis']
+tags: ['menjadwalkan posting instagram', 'posting otomatis', 'instagram bisnis']
 ctaTitle: 'Jadikan posting Instagram lebih teratur'
 ctaDescription: 'Balesaja membantu tim menyiapkan, menyetujui, dan menjadwalkan konten Instagram dalam proses yang mudah dipantau.'
 ctaLink: '/'

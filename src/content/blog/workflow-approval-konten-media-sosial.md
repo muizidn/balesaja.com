@@ -1,9 +1,9 @@
 ---
 title: 'Workflow Approval Konten Media Sosial agar Tidak Macet di Revisi'
-description: 'Panduan MOFU untuk membuat workflow approval konten media sosial yang jelas bagi tim marketing, owner, dan agency.'
+description: 'Panduan membuat workflow approval konten media sosial yang jelas bagi tim marketing, owner, dan agency.'
 pubDate: 'May 06 2026'
 category: 'Social Media Scheduling'
-tags: ['MOFU', 'approval konten', 'workflow konten', 'tim marketing']
+tags: ['approval konten', 'workflow konten', 'tim marketing']
 ctaTitle: 'Rapikan approval sebelum konten dijadwalkan'
 ctaDescription: 'Balesaja membantu tim membuat alur draft, review, approval, dan scheduling agar konten tidak macet di chat.'
 ctaLink: '/'

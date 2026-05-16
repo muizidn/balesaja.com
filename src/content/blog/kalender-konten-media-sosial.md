@@ -3,7 +3,7 @@ title: 'Cara Membuat Kalender Konten Media Sosial untuk Bisnis'
 description: 'Panduan membuat kalender konten media sosial yang praktis untuk Instagram, TikTok, Facebook, dan channel bisnis lain di pasar Indonesia.'
 pubDate: 'Apr 29 2026'
 category: 'Social Media Scheduling'
-tags: ['TOFU', 'kalender konten', 'content calendar', 'jadwal posting instagram']
+tags: ['kalender konten', 'content calendar', 'jadwal posting instagram']
 ctaTitle: 'Butuh kalender konten yang mudah dijalankan?'
 ctaDescription: 'Balesaja membantu merapikan ide, jadwal, dan approval konten agar rencana media sosial tidak berhenti di spreadsheet.'
 ctaLink: '/'
